@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo " $(acpi | awk 'END {print $(NF)}')"
+
